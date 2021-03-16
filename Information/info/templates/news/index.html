@@ -1,0 +1,21 @@
+{% extends 'news/base.html' %}
+{% block titleBlock %}
+    首页-新经资讯
+{% endblock %}
+{% block scriptBlock %}
+    <script type="text/javascript" src="../../static/news/js/index.js"></script>
+{% endblock %}
+{% block headerBlock %}
+    <ul class="menu fl">
+        {% for category in data.categories %}
+            <li class="{% if category.active %}active{% endif %}" data-cid="{{ category.id }}">
+                <a href="javascript:;">{{ category.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+<div class="conter_con">
+    {% block contentBlock %}
+        <ul class="list_con fl"></ul>
+    {% endblock %}
+</div>

@@ -1,0 +1,16 @@
+django==2.2
+mysqlclient
+pillow
+django-pure-pagination
+django-simple-captcha
+django-crispy-forms
+django-import-export==2.4
+django-reversion
+django-formtools
+future
+httplib2
+six
+xlwt
+xlsxwriter
+requests
+redis

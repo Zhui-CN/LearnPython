@@ -1,0 +1,8 @@
+Django==2.2.4
+django-redis==4.10.0
+Pillow==6.2.1
+PyMySQL==0.9.3
+pytz==2019.2
+redis==3.3.11
+sqlparse==0.3.0
+uWSGI==2.0.18
